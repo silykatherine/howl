@@ -1,0 +1,32 @@
+body[data-version="a"] .post-text {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+body[data-version="a"] .feed-header h1 {
+  font-size: 30px;
+}
+
+body[data-version="b"] .post {
+  padding-block: 24px;
+}
+
+body[data-version="b"] .post-text {
+  font-size: 18px;
+  line-height: 1.65;
+}
+
+body[data-version="c"] .post-text {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+body[data-version="c"] .feed-header h1 {
+  font-size: 32px;
+}
+
+@media (max-width: 860px) {
+  body[data-version="b"] .post {
+    padding-block: 24px;
+  }
+}
